@@ -1,5 +1,0 @@
-Method: POST
-Endpoint: users/login
-Status: 401
-Payload: {"email":"b3989d58cc604be1a9c60eb33d669a5b@example.com","password":"Demo1234"}
-Response: {"success":false,"status":401,"message":"Incorrect email address or password"}
