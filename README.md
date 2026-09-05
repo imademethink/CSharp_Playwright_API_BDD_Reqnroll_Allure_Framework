@@ -2,10 +2,48 @@
 
 C# + Microsoft Playwright API + Reqnroll + NUnit + Allure Reporting.
 
-## Prerequisites
+## Stack
+- C# / .NET 8
+- Microsoft Playwright 1.62.0
+- Reqnroll 3.3.4 (Gherkin/Cucumber-compatible BDD)
+- NUnit
+- Allure.Reqnroll 2.15.0
 
-- .NET 8 SDK
-- Allure CLI
+## Structure
+
+```text
+Features/
+  Demo.feature
+  DemoProfileMngt.feature
+StepDefinitions/
+  ApiSteps.cs
+Api/
+  BaseApi.cs
+  RegistrationApi.cs
+  LoginApi.cs
+  LogoutApi.cs
+  ProfileApi.cs
+  ForgotPasswordApi.cs
+  ChangePasswordApi.cs
+  DeleteAccountApi.cs
+Support/
+  TestData.cs
+  ScenarioContextData.cs
+  ApiAssertions.cs
+  TestHooks.cs
+Tests/
+  ApiIndependentTests.cs
+allureConfig.json
+reqnroll.json
+CSharp.Playwright.Api.Bdd.csproj
+```
+
+## Setup
+```powershell
+dotnet restore
+dotnet build
+pwsh .\bin\Debug\net8.0\playwright.ps1 install
+```
 
 ## Restore
 
@@ -51,31 +89,4 @@ allure generate bin/Debug/net8.0/allure-results -o allure-report --clean
 allure open allure-report
 ```
 
-## Structure
 
-```text
-Features/
-  Demo.feature
-  DemoProfileMngt.feature
-StepDefinitions/
-  ApiSteps.cs
-Api/
-  BaseApi.cs
-  RegistrationApi.cs
-  LoginApi.cs
-  LogoutApi.cs
-  ProfileApi.cs
-  ForgotPasswordApi.cs
-  ChangePasswordApi.cs
-  DeleteAccountApi.cs
-Support/
-  TestData.cs
-  ScenarioContextData.cs
-  ApiAssertions.cs
-  TestHooks.cs
-Tests/
-  ApiIndependentTests.cs
-allureConfig.json
-reqnroll.json
-CSharp.Playwright.Api.Bdd.csproj
-```
