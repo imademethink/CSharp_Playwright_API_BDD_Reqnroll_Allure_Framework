@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\malas\\shri_1000_names\\framework\\CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework\\CSharp.Playwright.Api.Bdd.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\malas\\shri_1000_names\\framework\\CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework\\CSharp.Playwright.Api.Bdd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\malas\\shri_1000_names\\framework\\CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework\\CSharp.Playwright.Api.Bdd.csproj",
+        "projectName": "CSharp.Playwright.Api.Bdd",
+        "projectPath": "C:\\Users\\malas\\shri_1000_names\\framework\\CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework\\CSharp.Playwright.Api.Bdd.csproj",
+        "packagesPath": "C:\\Users\\malas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malas\\shri_1000_names\\framework\\CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\malas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Allure.Reqnroll": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[18.0.1, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.62.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

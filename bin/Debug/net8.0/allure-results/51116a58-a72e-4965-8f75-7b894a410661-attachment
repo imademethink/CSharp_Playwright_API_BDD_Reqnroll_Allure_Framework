@@ -1,0 +1,5 @@
+Method: DELETE
+Endpoint: users/delete-account
+Status: 200
+Payload: null
+Response: {"success":true,"status":200,"message":"Account successfully deleted"}

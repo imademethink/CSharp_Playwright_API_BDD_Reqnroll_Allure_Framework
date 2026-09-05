@@ -1,0 +1,5 @@
+Method: POST
+Endpoint: users/login
+Status: 200
+Payload: {"email":"b3989d58cc604be1a9c60eb33d669a5b@example.com","password":"Demo1234"}
+Response: {"success":true,"status":200,"message":"Login successful","data":{"id":"6a9c56dbc0242702945870f1","name":"Jon Doe","email":"b3989d58cc604be1a9c60eb33d669a5b@example.com","token":"7072bc9c2f654f01a31ff65de483e210c8d2b1ea67a7437ca81fa2dba4c7d758"}}
