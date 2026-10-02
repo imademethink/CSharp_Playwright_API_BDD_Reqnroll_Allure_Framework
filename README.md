@@ -2,6 +2,15 @@
 
 Ready to Use API Automation Framework.
 
+---
+
+<img width="1672" height="941" alt="Ready To Use Automation Framework - C sharp, Playwright, REST API, BDD Reqnroll Nunit" src="https://github.com/user-attachments/assets/fbe41f48-7a12-4d10-add4-b6987a630959" />
+
+
+# YouTube Video Link
+
+---
+
 ## Stack
 - C# / .NET 8
 - Microsoft Playwright 1.62.0
@@ -41,28 +50,61 @@ allureConfig.json
 reqnroll.json
 CSharp.Playwright.Api.Bdd.csproj
 ```
+---
 
-## Setup
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/imademethink/CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework.git
+```
+
+---
+
+## Navigate to Folder
+
+```bash
+cd CSharp_Playwright_API_BDD_Reqnroll_Allure_Framework
+```
+
+---
+
+## Do the setup
+
 ```powershell
 dotnet restore
 dotnet build
 pwsh .\bin\Debug\net8.0\playwright.ps1 install
 ```
 
-## Restore
+## Run a specific tag
 
 ```bash
-dotnet restore
+dotnet test --filter "TestCategory=simple"   --framework net8.0
+
+dotnet test --filter "TestCategory=case1"   --framework net8.0 
 ```
 
-## Install Playwright
+## Run all BDD tests
+```powershell
+dotnet test --framework net8.0 
+```
+
+## Allure Report
+
+The Reqnroll Allure adapter writes results to `allure-results` at the solution/project level using `allureConfig.json`.
+
+The framework captures a PNG screenshot in Allure when a Gherkin step fails.
 
 ```bash
-dotnet build
-pwsh bin/Debug/net8.0/playwright.ps1 install
+Download Allure report binary from path : https://github.com/allure-framework/allure2/releases and add this path on System variable.
+
+allure generate bin/Debug/net8.0/allure-results -o allure-report --clean
+allure open allure-report
 ```
 
-## Cleanup
+## Cleanup (optional)
 
 ```bash
 cmd /c rmdir /s /q bin
@@ -70,27 +112,6 @@ cmd /c rmdir /s /q bin
 cmd /c rmdir /s /q allure-report
 
 cmd /c rmdir /s /q allure-results
-```
-
-## Run all BDD tests
-
-```bash
-dotnet test
-```
-
-## Run a specific tag
-
-```bash
-dotnet test --filter "TestCategory=case1"
-```
-
-## Allure
-
-The Reqnroll Allure adapter writes results to `allure-results` at the solution/project level using `allureConfig.json`.
-
-```bash
-allure generate bin/Debug/net8.0/allure-results -o allure-report --clean
-allure open allure-report
 ```
 
 
