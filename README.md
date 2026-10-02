@@ -1,6 +1,6 @@
-# C# Playwright API BDD Automation Framework
+# C# Playwright API Reqnroll BDD Automation Framework
 
-C# + Microsoft Playwright API + Reqnroll + NUnit + Allure Reporting.
+C# + Microsoft Playwright API + Reqnroll + NUnit + REST API CRUD + Allure Reporting.
 
 ## Stack
 - C# / .NET 8
