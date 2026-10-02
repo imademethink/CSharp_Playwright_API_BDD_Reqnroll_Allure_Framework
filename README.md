@@ -9,6 +9,10 @@ C# + Microsoft Playwright API + Reqnroll + NUnit + Allure Reporting.
 - NUnit
 - Allure.Reqnroll 2.15.0
 
+## Swagger link for API Details (Notes API Automation, CRUD Operation)
+
+https://practice.expandtesting.com/notes/api/api-docs/
+
 ## Structure
 
 ```text
