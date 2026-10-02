@@ -18,7 +18,7 @@ Ready to Use API Automation Framework.
 - NUnit
 - Allure.Reqnroll 2.15.0
 
-## Swagger link for API Details (Notes API Automation, CRUD Operation)
+## Swagger link for API Details (User Management API Automation, CRUD Operation)
 
 https://practice.expandtesting.com/notes/api/api-docs/
 
