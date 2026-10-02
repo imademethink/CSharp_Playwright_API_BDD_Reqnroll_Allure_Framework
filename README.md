@@ -81,9 +81,9 @@ pwsh .\bin\Debug\net8.0\playwright.ps1 install
 ## Run a specific tag
 
 ```bash
-dotnet test --filter "TestCategory=simple"   --framework net8.0
+dotnet test --framework net8.0 --filter "TestCategory=simple"   
 
-dotnet test --filter "TestCategory=case1"   --framework net8.0 
+dotnet test --framework net8.0 --filter "TestCategory=case1"
 ```
 
 ## Run all BDD tests
